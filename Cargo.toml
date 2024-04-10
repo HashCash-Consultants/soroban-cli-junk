@@ -17,52 +17,52 @@ rust-version = "1.74.0"
 version = "=20.1.1"
  git = "https://github.com/HashCash-Consultants/rs-soroban-env"
  rev = "4c051aba140465905e6e559b94bea6165dd514b7"
- path = "../rs-soroban-env/soroban-env-host"
+ #path = "../rs-soroban-env/soroban-env-host"
 
 [workspace.dependencies.soroban-simulation]
 version = "=20.1.1"
  git = "https://github.com/HashCash-Consultants/rs-soroban-env"
  rev = "4c051aba140465905e6e559b94bea6165dd514b7"
- path = "../rs-soroban-env/soroban-simulation"
+ #path = "../rs-soroban-env/soroban-simulation"
 
 [workspace.dependencies.soroban-spec]
 version = "=20.2.0"
  git = "https://github.com/HashCash-Consultants/rs-soroban-sdk"
- rev = "d332ddcfe5a4af2114fcaae60a3cb9457115b2cc"
- path = "../rs-soroban-sdk/soroban-spec"
+ rev = "364719a3898d8d2bdeb78ad5b95b834232f92f9e"
+ #path = "../rs-soroban-sdk/soroban-spec"
 
 [workspace.dependencies.soroban-spec-rust]
 version = "=20.2.0"
  git = "https://github.com/HashCash-Consultants/rs-soroban-sdk"
- rev = "d332ddcfe5a4af2114fcaae60a3cb9457115b2cc"
- path = "../rs-soroban-sdk/soroban-spec-rust"
+ rev = "364719a3898d8d2bdeb78ad5b95b834232f92f9e"
+ #path = "../rs-soroban-sdk/soroban-spec-rust"
 
 [workspace.dependencies.soroban-spec-json]
-version = "20.2.0"
+version = "20.3.1"
 path = "./cmd/crates/soroban-spec-json"
 
 [workspace.dependencies.soroban-spec-typescript]
-version = "20.2.0"
+version = "20.3.1"
 path = "./cmd/crates/soroban-spec-typescript"
 
 [workspace.dependencies.soroban-spec-tools]
-version = "20.2.0"
+version = "20.3.1"
 path = "./cmd/crates/soroban-spec-tools"
 
 [workspace.dependencies.soroban-sdk]
 version = "=20.2.0"
  git = "https://github.com/HashCash-Consultants/rs-soroban-sdk"
- rev = "d332ddcfe5a4af2114fcaae60a3cb9457115b2cc"
+ rev = "364719a3898d8d2bdeb78ad5b95b834232f92f9e"
 
 [workspace.dependencies.soroban-token-sdk]
 version = "=20.2.0"
  git = "https://github.com/HashCash-Consultants/rs-soroban-sdk"
- rev = "d332ddcfe5a4af2114fcaae60a3cb9457115b2cc"
+ rev = "364719a3898d8d2bdeb78ad5b95b834232f92f9e"
 
 [workspace.dependencies.soroban-ledger-snapshot]
 version = "=20.2.0"
  git = "https://github.com/HashCash-Consultants/rs-soroban-sdk"
- rev = "d332ddcfe5a4af2114fcaae60a3cb9457115b2cc"
+ rev = "364719a3898d8d2bdeb78ad5b95b834232f92f9e"
 
 [workspace.dependencies.soroban-cli-hcnet-test4]
 version = "20.3.1"
@@ -70,7 +70,8 @@ path = "cmd/soroban-cli"
 
 [workspace.dependencies.soroban-rpc]
 version = "=20.3.3"
- git = "https://github.com/HashCash-Consultants/soroban-rpc"
+# git = "https://github.com/HashCash-Consultants/soroban-rpc"
+
 
 [workspace.dependencies.hcnet-xdr]
 version = "=20.0.4"
